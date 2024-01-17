@@ -24,7 +24,7 @@ $( () => {
                 <p>Length: ${this.length}</p>
                 <p>Weight: ${this.weight}</p>
                 <p>Found: ${this.found}</p>
-                <img src="${this.imgLarge}" alt="${this.name}" width="1000" height="600">
+                <img class="imgLarge" src="${this.imgLarge}" alt="${this.name}" width="1000" height="600">
             </div>
             `)
         }

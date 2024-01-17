@@ -24,6 +24,11 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    margin: 0;
+    text-decoration: underline;
+}
+
 .flex-container {
     display: flex;
     /* flex-grow: 1; */
@@ -51,11 +56,6 @@ h1 {
 .imgLarge {
     width: 100%;
     height: auto;
-}
-
-h3 {
-    text-align: center;
-    text-decoration: underline;
 }
 
 footer {

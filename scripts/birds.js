@@ -54,24 +54,6 @@ $(() => {
 
   Animal.prototype.createAnimal = function () {
     $(".main-content").append(`
-    <div class="animal">
-    <img src="${this.thumbnail}" alt="${this.name}">
-        <h3>${this.name}</h3>
-        <p>${this.description}</p>
-        <ul>
-          <li>Lifespan: ${this.lifespan}</li>
-          <li>Group: ${this.group}</li>
-          <li>Food: ${this.food}</li>
-          <li>Length: ${this.length}</li>
-          <li>Width: ${this.weight}</li>
-          <li>Found: ${this.found}</li>
-        <ul>
-    </div>
-  `);
-  };
-
-  Animal.prototype.createAnimal = function () {
-    $(".main-content").append(`
       <div class="animal">
       <img src="${this.image}" alt="${this.name}">
           <h3>${this.name}</h3>

@@ -23,6 +23,15 @@ body {
 }
 
 .sidebar {
-  background-color: yellowgreen;
+  background-color: rgb(125, 190, 170);
   flex: 0 0 30%;
+  padding: 24px;
+}
+
+.animal-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0;
+  gap: 24px;
 }

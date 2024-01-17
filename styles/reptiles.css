@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(155, 158, 155);
+    padding: 24px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.reptile {
+    background-color: cornsilk;
+    border-radius: 10px;
+    flex: 0 0 calc(50% - 32px);
+    margin: 16px;
+    padding: 16px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}

@@ -10,6 +10,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -22,22 +24,41 @@ h1 {
     text-align: center;
 }
 
-.main-content {
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 24px;
+    /* flex-grow: 1; */
+}
+
+.main-content {
+    /* flex-grow: 1; */
+   /*  width: 70%; */
+    flex: 0 0 70%;
+}
+
+.sidebar {
+    background-color: yellowgreen;
+    flex: 0 0 30%;
 }
 
 .reptile {
     background-color: cornsilk;
     border-radius: 10px;
     flex: 0 0 calc(50% - 32px);
-    margin: 16px;
-    padding: 16px;
+/*     margin: 16px;
+    padding: 16px; */
+}
+
+.imgLarge {
+    width: 100%;
+    height: auto;
 }
 
 h3 {
     text-align: center;
     text-decoration: underline;
+}
+
+footer {
+    background-color: darkblue;
+    padding: 32px;
 }

@@ -1,0 +1,33 @@
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 0 0 70%;
+}
+
+.sidebar {
+  background-color: yellowgreen;
+  flex: 0 0 30%;
+}
+
+.reptile {
+  background-color: cornsilk;
+  border-radius: 10px;
+  flex: 0 0 calc(50% - 32px);
+}
+
+.imgLarge {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}

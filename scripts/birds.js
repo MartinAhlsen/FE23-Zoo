@@ -9,7 +9,7 @@ $(() => {
     weight,
     found,
     thumbnail,
-    imgUrl
+    image
   ) {
     this.name = name;
     this.lifespan = lifespan;
@@ -20,7 +20,7 @@ $(() => {
     this.weight = weight;
     this.found = found;
     this.thumbnail = thumbnail;
-    this.imgUrl = imgUrl;
+    this.image = image;
   }
 
   Animal.prototype.createAnimalList = function () {

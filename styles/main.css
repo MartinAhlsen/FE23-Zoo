@@ -20,6 +20,7 @@ body {
 
 .main-content {
   flex: 0 0 70%;
+  padding: 24px;
 }
 
 .sidebar {
@@ -28,10 +29,13 @@ body {
   padding: 24px;
 }
 
-.animal-card {
+/* .animal {
   cursor: pointer;
   display: flex;
   flex-direction: row;
   margin: 24px 0;
   gap: 24px;
+} */
+
+.animal-large {
 }

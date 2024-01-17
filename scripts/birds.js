@@ -24,7 +24,7 @@ $(() => {
   }
 
   Animal.prototype.createAnimalList = function () {
-    var animal = this;
+    const animal = this;
     $(".sidebar").append(`
       <div class="animal">
       <img src="${this.thumbnail}" alt="${this.name}">
@@ -55,7 +55,7 @@ $(() => {
   Animal.prototype.createAnimal = function () {
     $(".main-content").append(`
       <div class="animal">
-      <img src="${this.image}" alt="${this.name}">
+      <img src="${this.image}" alt="${this.name}" class="image-large">
           <h3>${this.name}</h3>
           <p>${this.description}</p>
           <ul>
@@ -70,7 +70,7 @@ $(() => {
     `);
   };
 
-  let baldEagle = new Animal(
+  const baldEagle = new Animal(
     "Bald Eagle",
     "20-30 years",
     "bird",
@@ -83,7 +83,7 @@ $(() => {
     "../images/bald_eagle_large.png"
   );
 
-  let cassowary = new Animal(
+  const cassowary = new Animal(
     "Cassowary",
     "20 years",
     "bird",
@@ -96,7 +96,7 @@ $(() => {
     "../images/cassowary_large.png"
   );
 
-  let hummingbird = new Animal(
+  const hummingbird = new Animal(
     "Hummingbird",
     "3-5 years",
     "bird",
@@ -109,7 +109,7 @@ $(() => {
     "../images/hummingbird_large.png"
   );
 
-  let kiwi = new Animal(
+  const kiwi = new Animal(
     "Kiwi",
     "25-50 years",
     "bird",
@@ -122,7 +122,7 @@ $(() => {
     "../images/kiwi_large.png"
   );
 
-  let peregrineFalcon = new Animal(
+  const peregrineFalcon = new Animal(
     "Peregrine Falcon",
     "15-20 years",
     "bird",
@@ -135,7 +135,7 @@ $(() => {
     "../images/peregrine_falcon_large.png"
   );
 
-  let peacock = new Animal(
+  const peacock = new Animal(
     "Peacock",
     "15-20 years",
     "bird",

@@ -72,7 +72,7 @@ $(() => {
       };
 
       const orchidMantis = new Animal(
-        " Orchid Mantis (Hymenopus coronatus)",
+        "Orchid Mantis",
         "The lifespan of an Orchid Mantis can range from 6 to 9 months, depending on factors such as environment and diet.",
         "Orchid Mantises belong to the Mantidae family, which includes various species of praying mantises.",
         "Orchid Mantises are carnivorous and primarily feed on insects. They are known for their ambush hunting strategy, patiently waiting for prey to come close before striking.",
@@ -84,8 +84,22 @@ $(() => {
         "../images/Orchid-Mantis_large.jpg"
       );
 
+      const peacockSpider = Animal(
+        "Peacock Spider",
+        "The lifespan of a Peacock Spider is relatively short, ranging from several months to a year, depending on the species and environmental conditions.",
+        " Peacock Spiders belong to the Salticidae family, which includes jumping spiders. The Maratus genus is specifically known as Peacock Spiders.",
+        "Peacock Spiders are carnivorous and feed on small insects. They are active hunters, using their keen eyesight and jumping abilities to catch prey.",
+        " Peacock Spiders are famous for the colorful and elaborate courtship displays performed by males during the mating ritual. These displays involve intricate leg and abdomen movements, showcasing vibrant patterns. The name Peacock Spider is derived from the spider's colorful abdomen resembling a peacock's tail feathers.",
+        "Adult Peacock Spiders are small, with a body length ranging from 1 to 5 millimeters, depending on the species.",
+        "Due to their small size, Peacock Spiders are lightweight.",
+        " Peacock Spiders are native to Australia, where they inhabit various habitats, including grasslands, shrublands, and forests. Different species of Peacock Spiders can be found in different regions of Australia.",
+        "../images/Peacock-Spider_thumb.jpg",
+        "../images/Peacock-Spider_large.jpg"
+      );
+
       let animalsArray = [
-        orchidMantis
+        orchidMantis,
+        peacockSpider
       ];
 
       animalsArray.forEach((animal) => animal.createAnimalList());

@@ -64,7 +64,7 @@ $(() => {
                 <li>Group: ${this.group}</li>
                 <li>Food: ${this.food}</li>
                 <li>Length: ${this.length}</li>
-                <li>Width: ${this.width}</li>
+                <li>Weigth: ${this.weight}</li>
                 <li>Found: ${this.found}</li>
               <ul>
           </div>
@@ -84,7 +84,7 @@ $(() => {
         "../images/Orchid-Mantis_large.jpg"
       );
 
-      const peacockSpider = Animal(
+      const peacockSpider = new Animal(
         "Peacock Spider",
         "The lifespan of a Peacock Spider is relatively short, ranging from several months to a year, depending on the species and environmental conditions.",
         " Peacock Spiders belong to the Salticidae family, which includes jumping spiders. The Maratus genus is specifically known as Peacock Spiders.",

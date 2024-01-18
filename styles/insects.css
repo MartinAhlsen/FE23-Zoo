@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.image-large {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+section h3 {
+    text-decoration: underline;
+}

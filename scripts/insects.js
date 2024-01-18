@@ -136,12 +136,26 @@ $(() => {
         "../images/Madagascan-Sunset-Moth_large.jpg"
       );
 
+      const goldenTortoiseBeetle = new Animal(
+        "Golden Tortoise Beetle (Charidotella sexpunctata)",
+        "The lifespan of the Golden Tortoise Beetle is relatively short, lasting a few weeks to a few months, depending on environmental conditions.",
+        "The Golden Tortoise Beetle belongs to the leaf beetle family Chrysomelidae. This family includes a diverse group of beetles, many of which are associated with plants.",
+        "Both the larvae and adults of the Golden Tortoise Beetle feed on the leaves of plants, with a preference for members of the morning glory family (Convolvulaceae). The feeding activity may cause damage to plant leaves.",
+        "The Golden Tortoise Beetle is named for its unique appearance. The adult beetles have a shiny, metallic gold or copper color, making them stand out. These beetles are known for their ability to change color. When disturbed, they can change from gold to a reddish or purplish hue.",
+        "Adult Golden Tortoise Beetles are relatively small, with a length ranging from 6 to 7 millimeters.",
+        "The weight of the Golden Tortoise Beetle is light, typical for beetles of its size.",
+        " Golden Tortoise Beetles are found in various regions, including North and South America. They inhabit fields, gardens, and areas with the preferred host plants",
+        "../images/Golden-Tortoise-Beetle_thumb.jpg",
+        "../images/Golden-Tortoise-Beetle_large.jpg"
+      );
+
       let animalsArray = [
         orchidMantis,
         peacockSpider,
         iridescentLonghornBeetle,
         blueCarpenterBee,
-        madagascanSunsetMoth
+        madagascanSunsetMoth,
+        goldenTortoiseBeetle
       ];
 
       animalsArray.forEach((animal) => animal.createAnimalList());

@@ -14,11 +14,6 @@ body {
     flex-direction: column;
 }
 
-header {
-    background-color: rgb(155, 158, 155);
-    padding: 24px;
-}
-
 .flex-container {
     display: flex;
 }
@@ -38,19 +33,6 @@ h1 {
     font-weight: 500;
 }
 
-.animal {
-    background-color: cornsilk;
-    border-radius: 10px;
-    margin: 16px;
-    padding: 16px;
-}
 
-.sidebar {
-    background-color: yellowgreen;
-    flex: 0 0 30%;
-}
 
-.imgLarge {
-    width: 100%;
-    height: auto;
-}
+

@@ -20,7 +20,12 @@ body {
 
 .main-content {
   flex: 0 0 70%;
-  padding: 24px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  margin-top: 16px
 }
 
 .sidebar {
@@ -29,13 +34,14 @@ body {
   padding: 24px;
 }
 
-/* .animal {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  margin: 24px 0;
-  gap: 24px;
-} */
+.animal {
+  background-color: cornsilk;
+  border-radius: 10px;
+  margin: 16px;
+  padding: 16px;
+}
 
-.animal-large {
+.imgLarge {
+  width: 100%;
+  height: auto;
 }

@@ -60,7 +60,7 @@ $( () => {
       Animal.prototype.createAnimal = function () {
         $(".main-content").append(`
           <div class="animal">
-          <img class="imgLarge" src="${this.image}" alt="${this.name}">
+          <img class="image-large" src="${this.image}" alt="${this.name}">
               <h3>${this.name}</h3>
               <p>${this.description}</p>
               <ul>

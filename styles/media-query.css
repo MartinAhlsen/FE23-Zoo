@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+    
+    header {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .image-large {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+}

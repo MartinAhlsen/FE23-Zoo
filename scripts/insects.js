@@ -72,7 +72,7 @@ $(() => {
       };
 
       const orchidMantis = new Animal(
-        "Orchid Mantis",
+        "Orchid Mantis (Hymenopus coronatus)",
         "The lifespan of an Orchid Mantis can range from 6 to 9 months, depending on factors such as environment and diet.",
         "Orchid Mantises belong to the Mantidae family, which includes various species of praying mantises.",
         "Orchid Mantises are carnivorous and primarily feed on insects. They are known for their ambush hunting strategy, patiently waiting for prey to come close before striking.",
@@ -85,7 +85,7 @@ $(() => {
       );
 
       const peacockSpider = new Animal(
-        "Peacock Spider",
+        "Peacock Spider (Maratus volans)",
         "The lifespan of a Peacock Spider is relatively short, ranging from several months to a year, depending on the species and environmental conditions.",
         " Peacock Spiders belong to the Salticidae family, which includes jumping spiders. The Maratus genus is specifically known as Peacock Spiders.",
         "Peacock Spiders are carnivorous and feed on small insects. They are active hunters, using their keen eyesight and jumping abilities to catch prey.",
@@ -97,9 +97,23 @@ $(() => {
         "../images/Peacock-Spider_large.jpg"
       );
 
+      const iridescentLonghornBeetle = new Animal(
+        "Iridescent Longhorn Beetle (Agapanthia villosoviridescens)",
+        "The lifespan of the Iridescent Longhorn Beetle can vary, but it typically ranges from several weeks to a few months, depending on environmental conditions.",
+        "The Iridescent Longhorn Beetle belongs to the Cerambycidae family, commonly known as longhorn beetles. This family includes a diverse group of beetles characterized by their long antennae.",
+        "The larvae of the Iridescent Longhorn Beetle feed on wood, particularly dead or decaying wood. The adults may also consume nectar from flowers.",
+        " The Iridescent Longhorn Beetle is named for the vivid iridescent colors that adorn its body, particularly on the elytra (wing covers). The coloration can include shades of green, blue, and purple. The long antennae, characteristic of longhorn beetles, add to its distinctive appearance.",
+        " Adult Iridescent Longhorn Beetles are medium-sized, with a body length ranging from 8 to 15 millimeters.",
+        "The weight of the Iridescent Longhorn Beetle is relatively light, given its size and structure.",
+        " This species is native to various parts of Europe, including the United Kingdom. It can be found in habitats such as meadows, woodlands, and areas with dead or decaying wood.",
+        "../images/Iridescent-Longhorn-Beetle_thumb.jpg",
+        "../images/Iridescent-Longhorn-Beetle_large.jpg"
+      )
+
       let animalsArray = [
         orchidMantis,
-        peacockSpider
+        peacockSpider,
+        iridescentLonghornBeetle
       ];
 
       animalsArray.forEach((animal) => animal.createAnimalList());

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zoo Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Zoo</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showCategory('birds')">Birds</a></li>
+            <li><a href="#" onclick="showCategory('reptiles')">Reptiles</a></li>
+            <li><a href="#" onclick="showCategory('mammals')">Mammals</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="birds" class="category">
+            <h2>Birds</h2>
+            <div class="animal-card">
+                <img src="images/turtle.jpg" alt="Bird Image">
+                <p>This colorful parrot is one of our many stunning bird species.</p>
+            </div>
+            <div class="animal-card">
+                <img src="owl_image.jpg" alt="Owl Image">
+                <p>Explore the nocturnal world of owls and their fascinating behaviors.</p>
+            </div>
+            
+        </section>
+
+        <section id="reptiles" class="category">
+            <h2>Reptiles</h2>
+            <div class="animal-card">
+                <img src="snake_image.jpg" alt="Snake Image">
+                <p>Discover the slithering beauty of snakes and their unique adaptations.</p>
+            </div>
+            <div class="animal-card">
+                <img src="images/turtle.jpg" alt="Turtle Image">
+                <p>Meet our slow-moving friends, the turtles, and learn about their habitats.</p>
+            </div>  
+            
+        </section>
+
+        <section id="mammals" class="category">
+            <h2>Mammals</h2>
+            <div class="animal-card">
+                <img src="lion_image.jpg" alt="Lion Image">
+                <p>Roar with the lions and experience the majesty of the king of the jungle.</p>
+            </div>
+            <div class="animal-card">
+                <img src="elephant_image.jpg" alt="Elephant Image">
+                <p>Explore the world of elephants and their social, intelligent behaviors.</p>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zoo Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

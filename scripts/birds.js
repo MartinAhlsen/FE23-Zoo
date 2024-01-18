@@ -45,10 +45,12 @@ $(() => {
     if (currentDisplayedAnimal === animal) {
       $(".main-content .animal").remove();
       currentDisplayedAnimal = null;
+      $(".message").show();
     } else {
       $(".main-content .animal").remove();
       animal.createAnimal();
       currentDisplayedAnimal = animal;
+      $(".message").hide();
     }
   }
 

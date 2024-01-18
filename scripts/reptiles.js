@@ -28,7 +28,7 @@ $(() => {
     $(".sidebar").append(`
           <div class="animal">
           <img src="${this.thumbnail}" alt="${this.name}" width="100" height="100">
-              <h3>${this.name}</h3>
+              <h4>${this.name}</h4>
           </div>
         `);
 

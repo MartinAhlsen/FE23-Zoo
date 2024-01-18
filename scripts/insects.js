@@ -121,13 +121,27 @@ $(() => {
         " Blue Carpenter Bees are native to various regions, including Southeast Asia and parts of the Indian subcontinent. They can be found in tropical and subtropical habitats where suitable nesting sites are available.",
         "../images/Blue-Carpenter-Bee_thumb.jpg",
         "../images/Blue-Carpenter-Bee_large.jpg"
-      )
+      );
+
+      const madagascanSunsetMoth = new Animal(
+        " Madagascan Sunset Moth (Chrysiridia rhipheus)",
+        "The lifespan of the Madagascan Sunset Moth is relatively short, typically ranging from a few days to a few weeks. This short lifespan is common among many moth species.",
+        "The Madagascan Sunset Moth belongs to the family Uraniidae. Moths in this family are often characterized by their bright colors and unique wing shapes.",
+        " In the adult stage, Madagascan Sunset Moths primarily feed on nectar from flowers. The caterpillar (larval) stage feeds on specific host plants.",
+        "This moth is renowned for its breathtakingly beautiful appearance. The wings of the Madagascan Sunset Moth exhibit a vibrant array of colors, including iridescent greens, blues, and reds. The iridescence is a result of microscopic scales on the wings that refract light.",
+        "The wingspan of the Madagascan Sunset Moth can reach up to 10 centimeters (approximately 4 inches).",
+        " The weight of the Madagascan Sunset Moth is relatively light, as is typical for most moths.",
+        "As the name suggests, the Madagascan Sunset Moth is native to Madagascar, an island nation in the Indian Ocean. It inhabits rainforests and other tropical environments on the island.",
+        "../images/Madagascan-Sunset-Moth_thumb.jpg",
+        "../images/Madagascan-Sunset-Moth_large.jpg"
+      );
 
       let animalsArray = [
         orchidMantis,
         peacockSpider,
         iridescentLonghornBeetle,
-        blueCarpenterBee
+        blueCarpenterBee,
+        madagascanSunsetMoth
       ];
 
       animalsArray.forEach((animal) => animal.createAnimalList());

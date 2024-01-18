@@ -108,12 +108,26 @@ $(() => {
         " This species is native to various parts of Europe, including the United Kingdom. It can be found in habitats such as meadows, woodlands, and areas with dead or decaying wood.",
         "../images/Iridescent-Longhorn-Beetle_thumb.jpg",
         "../images/Iridescent-Longhorn-Beetle_large.jpg"
+      );
+
+      const blueCarpenterBee = new Animal(
+        " Blue Carpenter Bee (Xylocopa caerulea)",
+        "The lifespan of the Blue Carpenter Bee can vary, but it typically ranges from a few weeks to a few months, depending on factors such as environmental conditions and predation.",
+        "Blue Carpenter Bees belong to the Xylocopa genus, which includes various species of carpenter bees. Carpenter bees are solitary bees known for nesting in wood.",
+        " Adult Blue Carpenter Bees primarily feed on nectar from flowers. They are important pollinators in their ecosystems.",
+        " The Blue Carpenter Bee is named for its vibrant blue and black coloration, which is particularly noticeable on its abdomen. The large size and distinctive color make it easily identifiable. These bees are solitary, and females create nests in wood by burrowing into it.",
+        " Adult Blue Carpenter Bees are relatively large, with a body length ranging from 0.8 to 1.6 inches (2 to 4 cm).",
+        "The weight of the Blue Carpenter Bee is relatively light, given its size.",
+        " Blue Carpenter Bees are native to various regions, including Southeast Asia and parts of the Indian subcontinent. They can be found in tropical and subtropical habitats where suitable nesting sites are available.",
+        "../images/Blue-Carpenter-Bee_thumb.jpg",
+        "../images/Blue-Carpenter-Bee_large.jpg"
       )
 
       let animalsArray = [
         orchidMantis,
         peacockSpider,
-        iridescentLonghornBeetle
+        iridescentLonghornBeetle,
+        blueCarpenterBee
       ];
 
       animalsArray.forEach((animal) => animal.createAnimalList());

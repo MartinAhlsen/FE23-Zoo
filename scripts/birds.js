@@ -24,18 +24,18 @@ $(() => {
   }
 
   Animal.prototype.createAnimalList = function () {
-    const animal = this;
     $(".sidebar").append(`
-      <div class="animal">
+    <div class="animal">
       <img src="${this.thumbnail}" alt="${this.name}">
-          <h3>${this.name}</h3>  
-      </div>
-    `);
+      <h3>${this.name}</h3>  
+    </div>
+  `);
 
     $(".sidebar .animal")
       .last()
-      .on("click", function () {
-        handleAnimalClick(animal);
+      .on("click", () => {
+        handleAnimalClick(this);
+        $("html, body").animate({ scrollTop: 0 }, "slow"); // Add this line
       });
   };
 

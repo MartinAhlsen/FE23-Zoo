@@ -26,8 +26,8 @@ $(() => {
   Animal.prototype.createAnimalList = function () {
     $(".sidebar").append(`
     <div class="animal">
-      <img src="${this.thumbnail}" alt="${this.name}">
-      <h3>${this.name}</h3>  
+      <img src="${this.thumbnail}" alt="${this.name}" class="thumbnail">
+      <h4>${this.name}</h4>  
     </div>
   `);
 

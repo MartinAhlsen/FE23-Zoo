@@ -4,12 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mammals</title>
+    <link rel="stylesheet" href="../styles/media-query.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/header-footer.css" />
+    <script src="../scripts/jquery-3.7.1.js" defer></script>
+    <script src="../scripts/mobile-menu.js" defer></script>
+    <script src="../scripts/mammals.js" defer></script>
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main-content>
-      <h1>Mammals</h1>
-    </main-content>
+    <header>
+      <div class="logo">
+        <a href="../index.html"><img src="../images/logo.png" /></a>
+      </div>
+      <nav id="main-nav">
+        <div id="hamburger-menu">&#9776;</div>
+        <ul id="menu">
+          <li><a href="../html/insects.html">Insects</a></li>
+          <li><a href="../html/birds.html">Birds</a></li>
+          <li><a href="../html/mammals.html">Mammals</a></li>
+          <li><a href="../html/reptiles.html">Reptiles</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="flex-container">
+      <div class="main-content">
+        <div class="message">
+          <h1>Mammals</h1>
+          <p>Welcome to mammals!</p>
+        </div>
+      </div>
+      <div class="sidebar"></div>
+    </section>
+    <footer>Zoo &copy; 2024</footer>
   </body>
 </html>
